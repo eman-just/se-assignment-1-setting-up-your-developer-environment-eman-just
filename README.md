@@ -11,44 +11,106 @@ This assignment aims to familiarize you with the tools and configurations necess
 #Tasks:
 
 1. Select Your Operating System (OS):
-   Choose an operating system that best suits your preferences and project requirements. Download and Install Windows 11. https://www.microsoft.com/software-download/windows11
+  
+   UPGRADING TO WINDOWS 11:
+First, make sure your PC meets the minimum requirements. To check, do the following:
+
+Open the Settings app.
+Next, click on "Update & Security" and then "Windows Update". 
+Click the "Check for updates" button to see if Windows 11 is available for download.
+When the upgrade is ready, see the option to download and install it, click on it and follow the on-screen prompts.
+
+   DOWNLOADING AND INSTALLATION  WINDOWS 11
+After downloading Windows 11, create an installation media:
+Visit the Microsoft website at https://www.microsoft.com/software-download/windows11.
+Select Windows 11 and download the installation file, which is straightforward.
+
+   To install Windows 11: 
+Insert the USB drive with the installation file into your computer and restart it.
+During setup, chose your language, enter your product key, and select where to install Windows (usually the main hard drive).
+Wait for the installation to finish, which takes some time.
 
 2. Install a Text Editor or Integrated Development Environment (IDE):
-   Select and install a text editor or IDE suitable for your programming languages and workflow. Download and Install Visual Studio Code. https://code.visualstudio.com/Download
+
+   DOWNLOADING AND INSTALLING VISUAL STUDIO CODE :
+
+Visit https://code.visualstudio.com/Download on your browser.
+Find the download link suitable for your Windows and click to begin the download.
+Once the downloaded, navigate to your Downloads folder or the path you saved it to go using File Explorer.
+Right-click on the downloaded file and chose "Run as administrator".
+In the setup menu that appears, click on "Accept the agreement" and then proceeded with "Next".
+The setup process is quite straightforward; just keep clicking "Next" until you reach the "Select Additional Tasks" step.
+Here, check the options for "Open with Code" as you want it to integrate with your system.
+After that, click "Next", followed by "Install".
+Once the installation completed, click on "Finish".
+
 3. Set Up Version Control System:
-   Install Git and configure it on your local machine. Create a GitHub account for hosting your repositories. Initialize a Git repository for your project and make your first commit. https://github.com
+   GIT INSTALLATION:
+On your browser, type "download Git" and enter.
+Click on the download link for the latest version of Git for Windows.
+After downloading, open the executable (.exe) file.
+In the setup menu, click "Next" to continue.
+At the "Select Components" step on the setup menu, make sure to check "Additional icons". 
+Continue clicking "Next" until you reach the "Install" button.
+Finally, click "Install", and then "Finish" once the installation completed.
+
+   SETTING UP GIT AND GITHUB:
+Next, you need to configure Git with your username and email.
+Open Git Bash, which is installed along with Git (Run as an administrator).
+Type in the following commands, replacing "Your Name" and "your_email@example.com" with your own information:
+
+{git config --global user.name "Your Name"}
+{git config --global user.email "your_email@example.com"}
+
+After configuring Git, create a GitHub account:
+Visit https://github.com/ and sign up for a new account. 
+Follow the steps to verify your email address and set up your profile.
+
+Then, initialize a Git repository for your project:
+Navigate to your project directory using File Explorer.
+Right-click inside the folder and select "Git Bash Here" to open Git Bash.
+Inside Git Bash, initialize a new Git repository with the command:
+{git init}
+
+Finally, make your first commit to the repository:
+Add all the files in your project to the staging area with the command:
+{git add .}
+
+Commit the changes with a message:
+{git commit -m "Initial commit"}
 
 4. Install Necessary Programming Languages and Runtimes:
-  Instal Python from http://wwww.python.org programming language required for your project and install their respective compilers, interpreters, or runtimes. Ensure you have the necessary tools to build and execute your code.
+  
+  PYTHON INSTALLATION:
+Visit http://www.python.org in your browser.
+Click on the download link to get the latest version of Python.
+Once the download is complete, click on the downloaded executable (.exe) file to start the installation.
+During the installation process, make sure to select the option to "add Python to PATH". 
+Continue with the default settings and click "Install".
+After installation, verify Python is installed correctly by opening Command Prompt and typing:
+{python --version}
 
 5. Install Package Managers:
-   If applicable, install package managers like pip (Python).
+
+  INSTALL PIP (PYTHON):
+Python installations usually come with pip. 
+To check, type the following code in command prompt. (remember to run as admin):
+{python -m pip --version}
 
 6. Configure a Database (MySQL):
-   Download and install MySQL database. https://dev.mysql.com/downloads/windows/installer/5.7.html
 
-7. Set Up Development Environments and Virtualization (Optional):
-   Consider using virtualization tools like Docker or virtual machines to isolate project dependencies and ensure consistent environments across different machines.
+Visit https://dev.mysql.com/downloads/windows/installer/5.7.html in your browser.
+Check on the installer for windows with the bigger size, not the one for web community and click download.
+Don't sign up or login.
+click on the  part that says, "No thanks, just start your download".
+Once the download is complete, click on the downloaded executable (.exe) file to start the installation.
+Continue with the default settings and click "Install".
 
-8. Explore Extensions and Plugins:
-   Explore available extensions, plugins, and add-ons for your chosen text editor or IDE to enhance functionality, such as syntax highlighting, linting, code formatting, and version control integration.
+7. Explore Extensions and Plugins:
 
-9. Document Your Setup:
-    Create a comprehensive document outlining the steps you've taken to set up your developer environment. Include any configurations, customizations, or troubleshooting steps encountered during the process. 
-
-#Deliverables:
-- Document detailing the setup process with step-by-step instructions and screenshots where necessary.
-- A GitHub repository containing a sample project initialized with Git and any necessary configuration files (e.g., .gitignore).
-- A reflection on the challenges faced during setup and strategies employed to overcome them.
-
-#Submission:
-Submit your document and GitHub repository link through the designated platform or email to the instructor by the specified deadline.
-
-#Evaluation Criteria:**
-- Completeness and accuracy of setup documentation.
-- Effectiveness of version control implementation.
-- Appropriateness of tools selected for the project requirements.
-- Clarity of reflection on challenges and solutions encountered.
-- Adherence to submission guidelines and deadlines.
-
-Note: Feel free to reach out for clarification or assistance with any aspect of the assignment.
+  	EXTENSIONS WITHIN VISUAL STUDIO CODE:
+Open Visual Studio Code.
+Navigate to Extensions icon on the  right of the screen or use the following key combination (Ctrl+Shift+X).
+Type in the search bar the name of the extension you would like to instalL.
+Always select the one that is verified by microsoft- it has a blue tick below it.
+Proceed to install.
